@@ -1,8 +1,8 @@
 class Fl < Formula
   desc "Anki-style spaced repetition flashcard TUI"
   homepage "https://github.com/kearnsw/flashcards"
-  url "https://github.com/kearnsw/flashcards/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "56f280966f48d510f2b43053d6faad2c2cbf5d2518b610217707914c44213137"
+  url "https://github.com/kearnsw/flashcards/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "47df14139ee9a0e9baa0fbee46e491833f0483964cb7cb0972873e3c5483051d"
   license "MIT"
 
   depends_on "rust" => :build

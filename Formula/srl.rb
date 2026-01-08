@@ -1,8 +1,8 @@
 class Srl < Formula
   desc "SRL - Spaced Repetition Learning TUI"
   homepage "https://github.com/kearnsw/srl-tui"
-  url "https://github.com/kearnsw/srl-tui/archive/refs/tags/v0.8.5.tar.gz"
-  sha256 "3f1d3451e3784439fb0a702e9a6501a6c4034bea2b72c80042a423a4911a105a"
+  url "https://github.com/kearnsw/srl-tui/archive/refs/tags/v0.8.6.tar.gz"
+  sha256 "bcaabeccc604d28836c7ff04e62b214cc7425950c34c5c7002ad81faf1e85c0e"
   license "MIT"
 
   depends_on "rust" => :build

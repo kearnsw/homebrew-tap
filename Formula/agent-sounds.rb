@@ -2,7 +2,7 @@ class AgentSounds < Formula
   desc "Completion sounds for Claude Code"
   homepage "https://github.com/kearnsw/agent-sounds"
   url "https://github.com/kearnsw/agent-sounds/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "98b9d4b8810443d3df7f9e6d49b4b9eccbc402822582f3dc6b260bde7ce80f16"
+  sha256 "4ff30e4a23a7212cd1f692c29de18d0f9ccbbe037c76707be92eb13607f5b3d1"
   license "MIT"
 
   depends_on "jq"

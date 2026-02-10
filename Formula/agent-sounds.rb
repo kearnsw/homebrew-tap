@@ -2,13 +2,13 @@ class AgentSounds < Formula
   desc "Completion sounds for Claude Code"
   homepage "https://github.com/kearnsw/agent-sounds"
   url "https://github.com/kearnsw/agent-sounds/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "1fcb06913e8387f67f3cadb456d4e55ab4c3de0b942ca6f87184942d58e18437"
+  sha256 "98b9d4b8810443d3df7f9e6d49b4b9eccbc402822582f3dc6b260bde7ce80f16"
   license "MIT"
 
   depends_on "jq"
 
   def install
-    prefix.install "install.sh", "play-random.sh"
+    prefix.install "install.sh", "play-sound.sh"
   end
 
   def post_install
